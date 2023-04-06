@@ -1,0 +1,169 @@
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
+}
+
+/* *container for all sections */
+#container {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 7% 10%;
+}
+
+/* todo: make all <section> tags the same width, border radius,  */
+
+/* *each card */
+.card {
+  border-radius: .625rem;
+  /* *we want the quotations to be positioned relative to each card, not the entire document*/
+  position: relative;
+  margin-top: 6%;
+  padding: 7%;
+  max-width: 90%;
+}
+
+.section1-card, .section2-card, .section4-card {
+  color: hsl(210, 46%, 95%);
+}
+
+
+/* !card 1 */
+/* *section 1 card */
+.section1-card {
+  background-color: hsl(263, 55%, 52%);
+}
+
+/* !card 2 */
+/* *section 2 card */
+.section2-card {
+  background-color: hsl(217, 19%, 35%);
+}
+
+/* !card 3 */
+/* *section 3 card */
+.section3-card {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+
+/* !card 4 */
+/* *section 3 card */
+.section4-card {
+  background-color:hsl(219, 29%, 14%)
+}
+
+/* !card 5 */
+/* *section 5 card */
+.section5-card {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(217, 19%, 35%);
+}
+
+
+/* !image and name section */
+
+/* *section with image and name made into a flex container*/
+section.image-and-name-container {
+  display: flex;
+  align-items: center;
+}
+
+/* *user image */
+.user-image {
+  max-width: 35px;
+  max-height: 35px;
+  border-radius: 50%;
+  border: 2px solid hsl(263, 35%, 66%);
+  margin-right: 15px;
+}
+
+/* !{user name} verified graduate container */
+.name-and-ver-container {
+  line-height: 0;
+}
+
+/* *User name */
+.user-name {
+  font-size: 15px;
+  margin: 23px 0 19px;
+}
+
+/* *verified graduate */
+.verified-graduate {
+  font-size: 13px;
+  font-weight: 200;
+  color: hsla(0, 0%, 100%, 0.7);
+  margin-top: 0;
+}
+
+h6.verified-graduate-dark {
+  color: hsl(217, 19%, 35%);
+}
+
+/* *quotations image */
+.quotations {
+  width: 150px; /*todo: maybe change to %*/
+  top: 0;
+  z-index: 0;
+  right: 1.25rem;
+  position: absolute;
+}
+
+/* !header section */
+
+h1.main-statement {
+  font-weight: 600;
+  font-size: 21.7px;
+  margin-bottom: 10px;
+  position:relative;
+  z-index: 1;
+}
+
+
+p.user-story-light {
+  color: hsla(0, 0%, 100%, 0.7);
+  line-height: 1.6;
+}
+
+h1.main-statement-dark {
+  color: hsl(217, 19%, 35%);
+}
+
+p.user-story-dark {
+  color: hsl(217, 19%, 35%, 0.7);
+}
+
+
+/* !card 2 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
