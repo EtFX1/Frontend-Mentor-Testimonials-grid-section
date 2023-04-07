@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(210, 46%, 95%);
+  background-color: hwb(210 93% 3%);
   font-size: 13px;
 }
 
@@ -9,7 +9,9 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 10% 7% 10%;
+  grid-gap: 2%;
+  padding: 10% 7% 0;
+  margin-bottom: 12.5rem;
 }
 
 /* todo: make all <section> tags the same width, border radius,  */
@@ -19,10 +21,9 @@ body {
   border-radius: .625rem;
   /* *we want the quotations to be positioned relative to each card, not the entire document*/
   position: relative;
-  margin-top: 6%;
-  padding: 7%;
-  max-width: 90%;
+  padding: 30px
 }
+
 
 .section1-card, .section2-card, .section4-card {
   color: hsl(210, 46%, 95%);
@@ -59,8 +60,8 @@ body {
 .section5-card {
   background-color: hsl(0, 0%, 100%);
   color: hsl(217, 19%, 35%);
-}
 
+}
 
 /* !image and name section */
 
@@ -72,27 +73,27 @@ section.image-and-name-container {
 
 /* *user image */
 .user-image {
-  max-width: 35px;
-  max-height: 35px;
+  max-width: 1.625rem;
+  max-height: 1.625rem;
   border-radius: 50%;
   border: 2px solid hsl(263, 35%, 66%);
-  margin-right: 15px;
 }
 
 /* !{user name} verified graduate container */
 .name-and-ver-container {
   line-height: 0;
+  margin-left: .8125rem;
 }
 
 /* *User name */
 .user-name {
-  font-size: 15px;
-  margin: 23px 0 19px;
+  font-size: .75rem;
+  margin: 1.375rem 0 .8125rem;
 }
 
 /* *verified graduate */
 .verified-graduate {
-  font-size: 13px;
+  font-size: .625rem;
   font-weight: 200;
   color: hsla(0, 0%, 100%, 0.7);
   margin-top: 0;
@@ -104,19 +105,26 @@ h6.verified-graduate-dark {
 
 /* *quotations image */
 .quotations {
-  width: 150px; /*todo: maybe change to %*/
+  width: 42%; /*todo: maybe width to a smaller % at 460px, and right to a larger value */
   top: 0;
-  z-index: 0;
   right: 1.25rem;
+  z-index: 0;
   position: absolute;
+}
+
+@media (min-width: 28.75rem) {
+  .quotations {
+    width: 20%;
+  }
+
 }
 
 /* !header section */
 
 h1.main-statement {
   font-weight: 600;
-  font-size: 21.7px;
-  margin-bottom: 10px;
+  font-size: 1.25rem;
+  margin-bottom: .625rem;
   position:relative;
   z-index: 1;
 }
@@ -127,6 +135,8 @@ p.user-story-light {
   line-height: 1.6;
 }
 
+
+
 h1.main-statement-dark {
   color: hsl(217, 19%, 35%);
 }
@@ -135,16 +145,31 @@ p.user-story-dark {
   color: hsl(217, 19%, 35%, 0.7);
 }
 
+@media (min-width: 768px) {
 
-/* !card 2 */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ?so that the body will be bigger than the container*/
+  }
+
+  #container {
+    height: 70vh;
+    background-color: red;
+    width: 100%;
+    /* padding: 2% 5% 2%; */
+    /* margin-bottom: 100px; */
+    /* grid-template-columns: 50% 25% 25%;
+    grid-template-rows: minmax(50%, auto) */
+  }
+
+  .card {
+    display: none;
+  }
 
 
-
-
-
-
-
-
+}
 
 
 
