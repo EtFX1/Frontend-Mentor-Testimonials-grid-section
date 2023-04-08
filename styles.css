@@ -1,34 +1,41 @@
 body {
   background-color: hwb(210 93% 3%);
   font-size: 13px;
+  height: 100%;
 }
 
 /* *container for all sections */
 #container {
-  font-family: 'Barlow Semi Condensed', sans-serif;
+  /* background-color: red; */
+  font-family: "Barlow Semi Condensed", sans-serif;
   display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-gap: 2%;
+  padding: 3% 3% 40%;
   justify-content: center;
   align-items: center;
-  grid-gap: 2%;
-  padding: 10% 7% 0;
-  margin-bottom: 12.5rem;
 }
 
-/* todo: make all <section> tags the same width, border radius,  */
+@media (min-width: 700px) {
+  #container {
+    padding-bottom: 20%;
+  }
+}
 
 /* *each card */
 .card {
-  border-radius: .625rem;
+  max-width: 100%;
+  border-radius: 0.625rem;
   /* *we want the quotations to be positioned relative to each card, not the entire document*/
   position: relative;
-  padding: 30px
+  padding: 25px;
 }
 
-
-.section1-card, .section2-card, .section4-card {
+.section1-card,
+.section2-card,
+.section4-card {
   color: hsl(210, 46%, 95%);
 }
-
 
 /* !card 1 */
 /* *section 1 card */
@@ -52,7 +59,7 @@ body {
 /* !card 4 */
 /* *section 3 card */
 .section4-card {
-  background-color:hsl(219, 29%, 14%)
+  background-color: hsl(219, 29%, 14%);
 }
 
 /* !card 5 */
@@ -60,7 +67,6 @@ body {
 .section5-card {
   background-color: hsl(0, 0%, 100%);
   color: hsl(217, 19%, 35%);
-
 }
 
 /* !image and name section */
@@ -82,18 +88,18 @@ section.image-and-name-container {
 /* !{user name} verified graduate container */
 .name-and-ver-container {
   line-height: 0;
-  margin-left: .8125rem;
+  margin-left: 0.8125rem;
 }
 
 /* *User name */
 .user-name {
-  font-size: .75rem;
-  margin: 1.375rem 0 .8125rem;
+  font-size: 0.75rem;
+  margin: 1.375rem 0 0.8125rem;
 }
 
 /* *verified graduate */
 .verified-graduate {
-  font-size: .625rem;
+  font-size: 0.625rem;
   font-weight: 200;
   color: hsla(0, 0%, 100%, 0.7);
   margin-top: 0;
@@ -114,9 +120,8 @@ h6.verified-graduate-dark {
 
 @media (min-width: 28.75rem) {
   .quotations {
-    width: 20%;
+    width: 15%;
   }
-
 }
 
 /* !header section */
@@ -124,18 +129,15 @@ h6.verified-graduate-dark {
 h1.main-statement {
   font-weight: 600;
   font-size: 1.25rem;
-  margin-bottom: .625rem;
-  position:relative;
+  margin-bottom: 0.625rem;
+  position: relative;
   z-index: 1;
 }
-
 
 p.user-story-light {
   color: hsla(0, 0%, 100%, 0.7);
   line-height: 1.6;
 }
-
-
 
 h1.main-statement-dark {
   color: hsl(217, 19%, 35%);
@@ -144,51 +146,3 @@ h1.main-statement-dark {
 p.user-story-dark {
   color: hsl(217, 19%, 35%, 0.7);
 }
-
-@media (min-width: 768px) {
-
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* ?so that the body will be bigger than the container*/
-  }
-
-  #container {
-    height: 70vh;
-    background-color: red;
-    width: 100%;
-    /* padding: 2% 5% 2%; */
-    /* margin-bottom: 100px; */
-    /* grid-template-columns: 50% 25% 25%;
-    grid-template-rows: minmax(50%, auto) */
-  }
-
-  .card {
-    display: none;
-  }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
