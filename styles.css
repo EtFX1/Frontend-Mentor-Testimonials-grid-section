@@ -1,5 +1,5 @@
 body {
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
   background-color: hwb(210 93% 3%);
 }
@@ -7,7 +7,7 @@ body {
 /* *container for all sections */
 #grid-container {
   font-family: "Barlow Semi Condensed", sans-serif;
-  padding: 5%;
+  padding: 3%;
   max-width: 1440px;
 
   display: grid;
@@ -196,10 +196,11 @@ h1.main-statement {
 }
 
 /* *changes the transparency of the paragraphs to 70% on cards 3 and 5 */
-p.user-story-light {
+p.paragraph-light {
   color: hsla(0, 0%, 100%, 0.7);
 }
 
-p.user-story-dark {
+p.paragraph-dark {
+  font-size: larger;
   color: hsl(217, 19%, 35%, 0.7);
 }
