@@ -39,8 +39,8 @@ Desktop Screenshot
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/EtFX1/Frontend-Mentor-Testimonials-grid-section)
-- Live Site URL: [https://etfx1.github.io/Frontend-Mentor-Testimonials-grid-section/)
+- [Solution URL](https://github.com/EtFX1/Frontend-Mentor-Testimonials-grid-section)
+- [Live Site URL](https://etfx1.github.io/Frontend-Mentor-Testimonials-grid-section/)
 
 ## My process
 
