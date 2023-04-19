@@ -4,7 +4,7 @@ body {
   background-color: hwb(210 93% 3%);
 }
 
-/* *container for all sections */
+/* *container for all sections (starting with mobile first) */
 #grid-container {
   font-family: "Barlow Semi Condensed", sans-serif;
   padding: 3%;
