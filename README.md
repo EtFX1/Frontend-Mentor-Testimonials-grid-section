@@ -50,7 +50,7 @@ Desktop Screenshot
 
 ### What I learned
 
-I learned how to use CSS Grid, and how to implement flexbox in it. I
+I learned how to use CSS Grid, and how to implement flexbox in it. 
 
 To see how you can add code snippets, see below:
 
