@@ -1,7 +1,6 @@
 # Frontend Mentor - Product preview card component solution
 
-
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -35,8 +34,6 @@ Tablet Screenshot
 Desktop Screenshot
 ![](./solution-screenshots/laptop-desktop-screenshot.png)
 
-
-
 ### Links
 
 - [Solution URL](https://github.com/EtFX1/Frontend-Mentor-Testimonials-grid-section)
@@ -51,13 +48,11 @@ Desktop Screenshot
 - CSS Flexbox
 - CSS Grid
 
-
 ### What I learned
 
 I learned how to use CSS Grid, and how to implement flexbox in it. I
 
 To see how you can add code snippets, see below:
-
 
 ### Continued development
 
@@ -66,7 +61,6 @@ I want to gradually master building CSS Grid layouts, and making them responsive
 ### Useful resources
 
 - [Kevin Powell: Learn CSS Grid the easy way!](https://www.youtube.com/watch?v=rg7Fvvl3taU) - This was a very well broken down video which explained only the main concepts that you need to get started with CSS Grid. Just like the title says it teaches you the easiest way to get started with grid and teaches you all the main values and properties you need to know. It's an excellent resource.
-
 
 ## Author
 
